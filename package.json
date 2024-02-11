@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/tdCrafts/discord#readme",
   "dependencies": {
-    "discord.js": "^14.14.1"
+    "bcrypt": "^5.1.1",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1",
+    "mongoose": "^8.1.1"
   }
 }
