@@ -71,7 +71,7 @@ schema.virtual("totalFragrance")
 
 schema.virtual("url")
     .get(function() {
-        return `${process.env.WEB_ROOT}calculator/${this._id}`;
+        return `${process.env.WEB_ROOT}calculator/candle/${this._id}`;
     });
 
 schema.methods.embed = function() {
