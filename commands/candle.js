@@ -85,8 +85,13 @@ const command = {
             let unit = interaction.options.getString("unit", false);
             
             let data = {
-                containerSize,
-                containerCount,
+                containers: [
+                    {
+                        name: "Container",
+                        size: containerSize,
+                        quantity: containerCount,
+                    }
+                ],
                 fragrancePercent,
                 buffer,
             };
